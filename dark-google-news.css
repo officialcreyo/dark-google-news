@@ -1,0 +1,77 @@
+/* ==UserStyle==
+@name           Dark Republic for Google News
+@namespace      github.com/officialcreyo/dark-google-news
+@version        1.0.0
+@description    A dark theme for Google News
+@author         officialcreyo
+==/UserStyle== */
+
+@-moz-document domain("news.google.com"), domain("ogs.google.com") {
+    :root {
+        --dt-dark: #1f232a;
+        --dt-dark1: #181a1e;
+        --dt-dark2: #1b1f26;
+        --dt-dark5: #333943;
+        --dt-light: #ccc;
+        --dt-lightblue: #363f4d;
+        --dt-lightblue2: #545e6d;
+    }
+    
+    body, html {
+        background: var(--dt-dark2) !important;
+    }
+    
+    /* Body */
+    .dm7YTc .zQTmif {
+        background: var(--dt-dark) !important;
+    }
+    
+    /* Navbar */
+    .gb_na, .gb_2a, .gb_Re, .gb_Nd, .gb_Od, .gb_Nc, .gb_ha {
+        background: var(--dt-dark2) !important;
+    }
+    
+    .dm7YTc .pGxpHc .VISqTe {
+        background: var(--dt-dark5) !important;
+    }
+    
+    /* Navbar Expandables (OGS) */
+    .BEsuRe.p2Ux4d {
+        background: var(--dt-dark) !important;
+    }
+    
+    .BEsuRe .J41f7d, .BEsuRe .IlhWE {
+        background: var(--dt-dark2) !important;
+    }
+    
+    /* Sidebar */
+    .dm7YTc .fkhPsc .UMrnmb-yXBf7b-QA0Szd-h2P4hd {
+        background: var(--dt-dark2) !important;
+    }
+    
+    /* Weather */
+    .dm7YTc .uUmIDd {
+        background: var(--dt-dark2) !important;
+        color: #bdc1c6;
+    }
+    
+    /* Special News */
+    .dm7YTc .YtXOzd {
+        background: var(--dt-dark2) !important;
+    }
+    
+    /* Panorama */
+    .dm7YTc .YDRMcc {
+        background: var(--dt-dark5) !important;
+    }
+    
+    /* News Tags */
+    .dm7YTc .To2ZZb.DbQnIe {
+        background-color: var(--dt-dark);
+        color: #bdc1c6;
+    }
+    
+    .dm7YTc a {
+        color: #8ab4f8;
+    }
+}
