@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Republic for Google News
 @namespace      github.com/officialcreyo/dark-google-news
-@version        1.0.0
+@version        1.0.1
 @description    A dark theme for Google News
 @author         officialcreyo
 ==/UserStyle== */
@@ -73,5 +73,22 @@
     
     .dm7YTc a {
         color: #8ab4f8;
+    }
+    
+    /* Scrollbar */
+    ::-webkit-scrollbar {
+	    width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: var(--dt-dark2);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #333943;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #272d35;
     }
 }
